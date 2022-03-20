@@ -11,3 +11,6 @@ services:
       TG_BOT_TOKEN: $ Bot
       DATABASE_URL: $DATABASE_URL  # defaults to None 
   
+ ports:
+      - 8080:8080
+    restart: unless-stopped
