@@ -6,7 +6,7 @@ services:
       ALIVE_NAME: $
       
       STRING_SESSION: $SESSION
-      API_ID: $API_ID  # defaults to None
+      APP_ID: $API_ID  # defaults to None
       API_HASH: $API_HASH  # defaults to None
       TG_BOT_TOKEN: $ Bot
       DATABASE_URL: $DATABASE_URL  # defaults to None 
